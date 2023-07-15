@@ -1,0 +1,28 @@
+@font-face {
+    font-family: lalezar;
+    src: url(./Lalezar-Regular.ttf);
+}
+*{
+    background-color: lightpink;
+    color: rgb(0, 0, 0);
+}
+.container{
+    font-family: lalezar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 3rem;
+    font-size: 2.5rem;
+}
+input{
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+button{
+    font-family: lalezar;
+    font-size: 2rem;
+    border-radius: .5rem;
+    margin: 2rem;
+}
